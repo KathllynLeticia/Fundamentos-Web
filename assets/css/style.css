@@ -43,7 +43,7 @@ p{
 .img-small {
     width: 400%;
     height: auto;
-  }
+}
 
 .tm-social {
     width: 30px;
@@ -62,21 +62,39 @@ p{
 
 .bold {
     font-weight: bold;
-  }
+}
 .mb-50{
     margin-bottom: 50px;
 }
 body {
     background-color:#E5CFF2;
-  }
+}
 
 .img-bord{
     border-width: 9px;
     border-style: solid;
     border-color: #D23B80;
-  }
+}
+
 /*Estilos da pagina contato.html*/
 
 .ml-50{
     margin-left: 50px;
 }
+
+.item {
+    flex: 0 0 33.33%;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .item {
+    flex-basis: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+    flex-basis: 100%;
+    }
+}  
